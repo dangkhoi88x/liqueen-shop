@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 15, 2024 at 08:48 AM
+-- Generation Time: Mar 15, 2024 at 08:57 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.30
 
@@ -199,7 +199,8 @@ CREATE TABLE `product` (
   `created_date` datetime NOT NULL,
   `description` text NOT NULL,
   `star` float DEFAULT NULL,
-  `featured` tinyint(1) DEFAULT NULL COMMENT '1: nổi bật'
+  `featured` tinyint(1) DEFAULT NULL COMMENT '1: nổi bật',
+  `enter_price` float DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 -- --------------------------------------------------------
