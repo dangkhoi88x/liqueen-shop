@@ -172,6 +172,7 @@ CREATE TABLE `order` (
 --
 
 CREATE TABLE `order_item` (
+    `id` int(11) NOT NULL,
   `product_id` int(10) NOT NULL,
   `order_id` int(10) NOT NULL,
   `qty` int(4) NOT NULL,
